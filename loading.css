@@ -1,0 +1,95 @@
+body {
+ margin: 0;
+  padding: 16px;
+  background-color: #512DA8;
+}
+
+.birthday-card {
+  margin: 40px auto;
+  padding: 16px;
+  max-width: 400px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 24px 40px -8px #311B92;
+}
+.birthday-card img {
+  width: 100%;
+}
+
+.source-link {
+  text-align: center;
+  color: #311B92;
+  text-decoration: underline;
+}
+
+.source-link a {
+  color: #311B92;
+  text-decoration: none;
+}
+
+.bday-title{
+  font-family: cursive;
+  font-weight:bold;
+  color: crimson;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)}
+
+.btn-grad {
+   font-size: 20px;
+   margin:10px auto;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-weight: bold;
+ }
+
+ .btn-grad a{
+   color:white;
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+ .btn-grad a:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .birthday-bg{
+   background-color: black;
+ }
+
+  .active{
+   background-color:white;
+  }
+  
+  #bal{
+    width: 85vw;
+    margin: 20% auto;
+  }
+
+  #bal .balloon{
+    visibility: visible;
+    width: 100%;
+  }
+
+  .balloon-inactive{
+    visibility: hidden;
+    width: 85vw;
+    margin: 20px auto;
+  }
+
+  img{
+    width:100%;
+  }
+
+  .birthday-card p{
+    font-weight: bold;
+  }
